@@ -215,6 +215,7 @@ h3.bookTitle {
 
   .buttonBar {
     margin: auto;
+    text-align: center;
     display: flex;
     flex-direction: column;
   }
