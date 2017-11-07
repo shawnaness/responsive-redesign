@@ -217,11 +217,12 @@ h3.bookTitle {
     margin: 0 auto;
     text-align: center;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     justify-content: center;
   }
 
   .buttonHeader {
+    margin: 0 auto;
     margin-bottom: 5px;
     width: 150px;
   }
