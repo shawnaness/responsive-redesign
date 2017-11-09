@@ -55,7 +55,6 @@ p {
   margin-top: 15px;
 }
 
-/*this is probably unnecessary*/
 .buttonHeader {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -72,8 +71,6 @@ p {
   padding-top: 0.5em;
   padding-left: 2em;
   padding-right: 2em;
-  /*border-style: solid;
-  border-color: black;*/
 }
 
 .searchInputAndButton {
@@ -86,10 +83,10 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
   border-radius: 5px;
+  margin-right: 10px;
   padding-left: 5px;
   height: 20px;
   width: 60%;
-  margin-right: 10px;
 }
 
 .button {
@@ -155,7 +152,7 @@ p {
 
 .suggestionsTitle {
   grid-column: 1/3;
-  grid-row: 1;
+  grid-row: 1/2;
 }
 
 .bookImage {
@@ -196,10 +193,7 @@ h3.bookTitle {
   grid-column: 1/3;
   grid-row: 4;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 5px 15px 10px 15px;
 }
 
 .footer a {
