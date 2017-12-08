@@ -59,10 +59,12 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   border-radius: 5px;
-  border-style: groove;
+  border: none;
+  padding: 5px 10px;
   border-color: #fbf4db;
   background-color: #fbf4db;
   color: #c03e3e;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .quickSearch {
@@ -93,11 +95,12 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #fbf4db;
+  border: none;
   border-radius: 5px;
-  border-style: groove;
   border-color: #c03e3e;
   background-color: #c03e3e;
   padding: 3px 10px;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 }
 
 .dropdownsAndLink {
@@ -229,6 +232,7 @@ h3.bookTitle {
     margin: 0 auto;
     margin-bottom: 5px;
     width: 150px;
+    padding: 2px 0px;
   }
 
   .quickSearch {
